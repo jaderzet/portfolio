@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./img/jd.png" type="image/x-icon">
+</head>
+
+<body>
+    
+
+    <div class="img">
+        <img src="./img/jd.png" alt="Foto" class="imagem-redonda">
+
+        <h2>Sobre Mim</h2>
+        <p>Olá, meu nome é Jader Maloste, tenho 18 anos atualmente resido em Atibaia e estudo na UNIFAAT. Sou um
+            estudante apaixonado por tecnologia e programação, buscando sempre aprender e me desenvolver na área de
+            Desenvolvimento de Sistemas. Meu objetivo é adquirir experiência prática e contribuir para projetos
+            inovadores.</p>
+
+        <h2>Educação</h2>
+        <ul>
+            <li><strong>Tecnólogo em Análise e Desenvolvimento de Sistemas</strong> - UNIFAAT (2023 - Presente)</li>
+            <li><strong>Curso Microsoft Azure (AZ-900)</strong> - Senai (2022, não certificado)</li>
+        </ul>
+
+        <h2>Habilidades Técnicas</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Git, GitHub</li>
+        </ul>
+
+        <h2>Vídeo</h2>
+        <video width="640" height="360" controls loop muted poster="./video/Projeto.mp4">
+            <source src="./video/unknown_replay_2024.08.24-16.18 - Trim.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+
+        <h2>Alguns dos meus projetos podem ser vistos nesse link do GitHub abaixo</h2>
+        <div class="contact-container">
+            <div class="github">
+                <a href="https://github.com/jaderzet" target="_blank">
+                    <img src="./img/git.png" height="50px" alt="Link para GitHub" class="imagem-link">
+                </a>
+            </div>
+        </div>
+
+        <h2>Como o tecnólogo de ADS só dá uma "passada" por cima do conteúdo, procuro uma oportunidade para aprender
+            mais sobre programação</h2>
+    </div>
+
+    <div class="contact-info">
+        <h2>Contato (Considere que o formulario abaixo é apenas um teste, não funciona)</h2>
+        <form id="contactForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div class="social-links">
+            <div class="Whatsapp">
+                <a href="https://wa.me/5511916285816" target="_blank">
+                    <img src="./img/zap.png" height="50px" alt="Link para WhatsApp">
+                </a>
+            </div>
+        </div>
+    </div>
+ 
+    <footer>
+        <p>&copy; 2024 Jader Maloste. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+   
+</body>
+
+</html>
